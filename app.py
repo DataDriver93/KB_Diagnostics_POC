@@ -4,9 +4,7 @@ import requests
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Configura la chiave API di OpenAI
-#client = OpenAI(api_key='YOUR_OPENAI_API_KEY2')
-
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+openai.api_key = 'YOUR_OPENAI_API_KEY_3'
 
 # Funzione per ottenere embeddings dai documenti
 def get_embeddings(document):
